@@ -4,6 +4,8 @@ import random
 
 semaforoNorte: None
 semaforoSul: None
+pistaNorte: int = 0
+pistaSul: int = 0
 
 def init(sNorte, sSul, pNorte, pSul):
     global semaforoNorte
